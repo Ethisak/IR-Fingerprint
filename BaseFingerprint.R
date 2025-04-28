@@ -24,7 +24,8 @@ for(i in 1:1281) {
     d <- d[min(which(d$V1 > 500)):length(d$V1),]
   }
   row.names(d) <- seq(1,length(d$V1))
-  
+
+  #fp files are generated using RDkit implementation in Python in "TheoreticalFingerprint.py" 
   fk <-read.table(file = sub("xyz", i, "xyz.fp"), header = FALSE)
   
   #Bits thresholds 
