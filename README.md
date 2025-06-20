@@ -8,4 +8,4 @@ The following items are included in this repository:
 - R script constructing QSAR models and performing feature selection ("FeatureSelection.R")
 - R script performing clustering based on proposed fingerprint ("Clustering.R")
 - Database of used molecules with logP values
-- CSV files with generated fingerprints
+- Excel files with generated fingerprints
