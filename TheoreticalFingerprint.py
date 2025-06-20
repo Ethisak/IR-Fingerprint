@@ -4,7 +4,7 @@ import numpy as np
 from array import array
 import json
 
-d = pd.read_excel("F:/NowyFP/NewFP/BazaDanych1281.xlsx")
+d = pd.read_excel("")
 
 def fpteor(smi):
   fp = [0] * 101
@@ -426,7 +426,7 @@ def fpteor(smi):
 
   globals()['FP'] = fp
 
-dd = range(1281)
+dd = range(1278)
 
 for ii in dd:
   fpteor(d['SMILES'][ii])
